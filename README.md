@@ -52,6 +52,12 @@ python anydownload.py
 A simple GUI window will open.
 Enter a video URL or an encoded string → click Download → the download will start ✅
 
+# CREATE STANDALONE
+
+```bash
+pyinstaller --onefile --windowed --collect-all yt_dlp --name "AnyVideoDownloader" any_download.py
+```
+
 # Notes
 
 Downloaded files are saved in the current working directory.
