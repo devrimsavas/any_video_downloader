@@ -25,3 +25,7 @@ cookies.txt
 *.webm
 *.mp4
 *.mkv
+
+
+build/
+dist/
